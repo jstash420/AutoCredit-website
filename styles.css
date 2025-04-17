@@ -7,8 +7,9 @@
 
 /* Default styles for big screens (laptops/desktops) */
 body {
-  font-size: 18px;
-  padding: 40px;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;  /* Or any background you prefer */
 }
 
 /* Styles for phones (less than 768px width) */
