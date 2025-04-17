@@ -8,12 +8,14 @@
 /* Default styles for big screens (laptops/desktops) */
 body {
   font-size: 18px;
+  padding: 40px;
 }
 
 /* Styles for phones (less than 768px width) */
 @media (max-width: 768px) {
   body {
     font-size: 16px;
+      padding: 20px;
   }
 
   .nav {
