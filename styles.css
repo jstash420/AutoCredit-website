@@ -19,6 +19,16 @@ body {
     padding: 0;
 }
 
+html, body {
+    height: 100%; /* Full height of the viewport */
+    width: 100%;
+    background-color: #f4f4f4;  /* Or your preferred color */
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
 /* Styles for phones (less than 768px width) */
 @media (max-width: 768px) {
   body {
