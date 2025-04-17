@@ -8,6 +8,7 @@
 /* Default styles for big screens (laptops/desktops) */
 body {
   font-size: 18px;
+  padding: 40px;
 }
 
 /* Styles for phones (less than 768px width) */
