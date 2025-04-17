@@ -7,33 +7,15 @@
 
 /* Default styles for big screens (laptops/desktops) */
 body {
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;  /* Or any background you prefer */
-}
-
-.container, .main-container {
-    width: 100%;
-    max-width: 100%;
-    margin: 0;
-    padding: 0;
-}
-
-html, body {
-    height: 100%; /* Full height of the viewport */
-    width: 100%;
-    background-color: #f4f4f4;  /* Or your preferred color */
-}
-
-body {
-    font-family: Arial, sans-serif;
+  font-size: 18px;
+  padding: 40px;
 }
 
 /* Styles for phones (less than 768px width) */
 @media (max-width: 768px) {
   body {
     font-size: 16px;
-      padding: 20px;
+    padding: 20px;
   }
 
   .nav {
@@ -61,6 +43,13 @@ img {
   max-width: 100%;
   width: 90%;
   margin: auto;
+}
+
+@media (max-width: 768px) {
+  .navbar-links {
+    display: block;
+    text-align: center;
+  }
 }
 
 /* Menu and dropdown styles */
@@ -994,13 +983,5 @@ hr {
 
   .dropdown_menu {
     position: relative;
-  }
-}
-
-@media (max-width: 768px) {
-  .service-card,
-  .car-card {
-    width: 90%;
-    margin: 10px auto;
   }
 }
